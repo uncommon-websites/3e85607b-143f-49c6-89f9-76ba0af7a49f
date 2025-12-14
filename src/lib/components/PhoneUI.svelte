@@ -20,99 +20,100 @@
     <!-- App Content -->
     <div class="flex-1 overflow-y-auto pt-12 px-6 pb-6 text-xs font-medium select-none scrollbar-hide">
       <!-- Header -->
-      <div class="flex justify-between items-baseline mb-6 mt-2">
-        <h2 class="text-3xl font-bold tracking-tight">Mon<span class="text-red-500 ml-0.5">•</span></h2>
-        <div class="text-gray-400 text-[10px] uppercase tracking-wide text-right leading-tight font-semibold">
-          December 9<br>2024
+      <div class="flex justify-between items-center mb-6 mt-2">
+        <h2 class="text-2xl font-bold tracking-tight">Nearby Mosques</h2>
+        <div class="text-[10px] text-gray-400 font-semibold uppercase tracking-wide">
+          Leicester
         </div>
       </div>
 
-      <!-- Calendar Strip -->
-      <div class="flex justify-between mb-8 text-[10px] text-gray-400 font-semibold">
-        <div class="flex flex-col items-center gap-1.5">
-          <span class="w-7 h-7 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs">9</span>
-          <span class="text-black font-bold tracking-wide">MON</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">10</span>
-          <span class="tracking-wide">TUE</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">11</span>
-          <span class="tracking-wide">WED</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">12</span>
-          <span class="tracking-wide">THU</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">13</span>
-          <span class="tracking-wide">FRI</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">14</span>
-          <span class="tracking-wide">SAT</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">15</span>
-          <span class="tracking-wide">SUN</span>
+      <!-- Prayer Times Card -->
+      <div class="mb-6 p-4 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl border border-primary-200">
+        <div class="text-[10px] text-primary-700 font-bold uppercase tracking-wide mb-3">Today's Prayer Times</div>
+        <div class="grid grid-cols-3 gap-3 text-[11px]">
+          <div class="flex flex-col">
+            <span class="text-gray-500 text-[9px] mb-1">Fajr</span>
+            <span class="font-bold text-black">05:42</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-gray-500 text-[9px] mb-1">Dhuhr</span>
+            <span class="font-bold text-black">12:15</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-gray-500 text-[9px] mb-1">Asr</span>
+            <span class="font-bold text-black">14:32</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-gray-500 text-[9px] mb-1">Maghrib</span>
+            <span class="font-bold text-primary-600">16:48</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-gray-500 text-[9px] mb-1">Isha</span>
+            <span class="font-bold text-black">18:30</span>
+          </div>
         </div>
       </div>
 
-      <!-- List -->
-      <div class="space-y-5">
-        <!-- Item 1 -->
-        <div class="flex items-center gap-4">
-          <span class="text-red-500 text-lg leading-none">✻</span>
-          <span class="font-semibold text-sm">Daria's 20th Birthday</span>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="flex items-center gap-4 justify-between group">
-          <div class="flex items-center gap-4">
-            <span class="text-yellow-500 text-lg leading-none">☀</span>
-            <span class="text-sm font-medium">Wake up</span>
+      <!-- Mosque List -->
+      <div class="space-y-4">
+        <!-- Mosque 1 -->
+        <div class="flex gap-3 p-3 bg-white rounded-xl border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3C8 3 6 5 6 7h12c0-2-2-4-6-4z"/>
+              <rect x="7" y="7" width="10" height="10" rx="1"/>
+            </svg>
           </div>
-          <span class="text-gray-300 font-medium">09:00</span>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[9px] font-serif italic">Aa</span>
-            <span class="text-sm font-medium">Design Crit</span>
+          <div class="flex-1 min-w-0">
+            <div class="font-bold text-sm mb-0.5">Leicester Central Mosque</div>
+            <div class="text-[10px] text-gray-500 mb-1.5">0.3 mi • Conduit Street</div>
+            <div class="text-[9px] text-primary-600 font-semibold">Next: Maghrib 16:48</div>
           </div>
-          <span class="text-gray-300 font-medium">10:00</span>
         </div>
 
-        <!-- Item 4 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[10px] -rotate-90">✂</span>
-            <span class="text-sm font-medium">Haircut with Vincent</span>
+        <!-- Mosque 2 -->
+        <div class="flex gap-3 p-3 bg-white rounded-xl border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3C8 3 6 5 6 7h12c0-2-2-4-6-4z"/>
+              <rect x="7" y="7" width="10" height="10" rx="1"/>
+            </svg>
           </div>
-          <span class="text-gray-300 font-medium">13:00</span>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="flex items-center gap-4">
-          <span class="text-black border-[1.5px] border-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">✓</span>
-          <span class="text-sm font-medium line-through text-gray-400">Make pasta</span>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="flex items-center gap-4 text-gray-400">
-          <span class="border-[1.5px] border-dashed border-gray-300 rounded-full w-5 h-5"></span>
-          <span class="text-sm font-medium">Pushups x100</span>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="flex items-center gap-4 justify-between text-gray-400">
-          <div class="flex items-center gap-4">
-            <span class="text-purple-400 text-lg leading-none">☾</span>
-            <span class="text-black text-sm font-medium">Wind down</span>
+          <div class="flex-1 min-w-0">
+            <div class="font-bold text-sm mb-0.5">Masjid Umar</div>
+            <div class="text-[10px] text-gray-500 mb-1.5">0.7 mi • Evington Road</div>
+            <div class="text-[9px] text-gray-400 font-semibold">Next: Maghrib 16:50</div>
           </div>
-          <span class="text-gray-300 font-medium">21:00</span>
+        </div>
+
+        <!-- Mosque 3 -->
+        <div class="flex gap-3 p-3 bg-white rounded-xl border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3C8 3 6 5 6 7h12c0-2-2-4-6-4z"/>
+              <rect x="7" y="7" width="10" height="10" rx="1"/>
+            </svg>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-bold text-sm mb-0.5">Jame Masjid</div>
+            <div class="text-[10px] text-gray-500 mb-1.5">1.2 mi • Belgrave Road</div>
+            <div class="text-[9px] text-gray-400 font-semibold">Next: Maghrib 16:48</div>
+          </div>
+        </div>
+
+        <!-- Mosque 4 -->
+        <div class="flex gap-3 p-3 bg-white rounded-xl border border-gray-100 shadow-sm">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3C8 3 6 5 6 7h12c0-2-2-4-6-4z"/>
+              <rect x="7" y="7" width="10" height="10" rx="1"/>
+            </svg>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-bold text-sm mb-0.5">Al-Aqsa Mosque</div>
+            <div class="text-[10px] text-gray-500 mb-1.5">1.5 mi • Spinney Hill</div>
+            <div class="text-[9px] text-gray-400 font-semibold">Next: Maghrib 16:48</div>
+          </div>
         </div>
       </div>
     </div>
